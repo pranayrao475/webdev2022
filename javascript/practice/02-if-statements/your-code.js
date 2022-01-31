@@ -28,6 +28,13 @@ var totalArchers = 0;         // number of kids who are actually doing archery i
 // ------------------------
 
 // Write your code here:
+if (kidsWhoWantToSwim %2 ===0){
+    totalSwimmers= kidsWhoWantToSwim;
+    totalArchers = kidsWhoWantDoArchery;
+
+} else {
+    totalArchers = kidsWhoWantToSwim + kidsWhoWantDoArchery;
+}
 
 
 
